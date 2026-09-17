@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 htmlcov/
 .coverage
+
+.DS_Store
+
+__MACOSX/
+setup-session.ps1
