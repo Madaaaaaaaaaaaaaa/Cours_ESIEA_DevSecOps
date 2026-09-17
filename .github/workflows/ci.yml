@@ -16,7 +16,7 @@ jobs:
       - run: pip install -r starter-app/requirements.txt
       - run: flake8 starter-app --max-line-length=100
 
-    test:
+  test:
     needs: lint
     runs-on: ubuntu-latest
     strategy:
